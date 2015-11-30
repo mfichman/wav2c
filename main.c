@@ -43,7 +43,7 @@ int main(int argc, char **argv) {
 		exit(0);
 	}
 
-	fin = fopen(argv[1], "r");
+	fin = fopen(argv[1], "rb");
 
 	s = loadWaveHeader(fin);
 
